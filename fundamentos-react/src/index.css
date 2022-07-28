@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(31, 36, 31);
+  color: whitesmoke;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.4rem;
+  text-align: center;  
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 200;
+}
+
+h2,
+h3 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
