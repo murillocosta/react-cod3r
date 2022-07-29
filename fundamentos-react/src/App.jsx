@@ -19,7 +19,7 @@ import DiretaPai from './components/comunicacao/DiretaPai/DiretaPai';
 import IndiretaPai from './components/comunicacao/IndiretaPai/IndiretaPai';
 import Input from './components/formulario/Input/Input';
 import Contador from './components/Contador/Contador';
-import ContadorClasse from './components/Contador/ContadorClasse';
+import ContadorClasse from './components/Contador/CondadorClasse/ContadorClasse';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default _ => (
