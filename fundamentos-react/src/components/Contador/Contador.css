@@ -1,0 +1,13 @@
+.BotaoContador {
+  width: 2.5rem;
+  height: 2.2rem;
+  margin: 1rem;
+  background-color: #fff;
+  color: #000;
+  border-radius: 6px;
+  box-shadow: 1px 1px 5px black;
+}
+.BotaoContador:hover {
+  background-color: #000;
+  color: #fff;
+}
