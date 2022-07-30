@@ -1,6 +1,6 @@
 import './Contador.css';
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 /* eslint-disable import/no-anonymous-default-export */
 export default props => {

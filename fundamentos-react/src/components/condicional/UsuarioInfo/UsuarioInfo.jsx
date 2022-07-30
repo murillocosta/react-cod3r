@@ -1,4 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
+import React from 'react';
+
 import If, { Else } from '../If';
 
 export default props => {
@@ -16,7 +18,7 @@ export default props => {
           Seja bem vindo(a), <strong>Estudante</strong>!
         </div>
       </If> */}
-      <If test={usuario && usuario.nome?.trim()}>
+      <If test={usuario && usuario.nome}>
         <p>
           Seja bem vindo, <strong>{usuario.nome}</strong>.
         </p>

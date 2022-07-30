@@ -1,5 +1,5 @@
 import './Contador.css';
-import { Component } from 'react';
+import React, { Component } from 'react';
 import Display from './Display/Display';
 import Botoes from './Botoes/Botoes';
 import Passo from './Passo/Passo';
@@ -32,7 +32,7 @@ class ContadorClasse extends Component {
       <div className="Contador">
         <h2>Contador</h2>
         <Display numero={this.state.numero} />
-        <Passo passo={this.state.passo} setPasso={this.setPasso}/>
+        <Passo passo={this.state.passo} setPasso={this.setPasso} />
         <Botoes setInc={this.increment} setDec={this.decrement} />
       </div>
     );

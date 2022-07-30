@@ -1,4 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
+import React from 'react';
+
 export default ({ max, min }) => {
   const randomNumber = parseInt(Math.random() * (max - min + 1) + min);
 
