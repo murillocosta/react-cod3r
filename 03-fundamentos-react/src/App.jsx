@@ -20,7 +20,7 @@ import IndiretaPai from './components/comunicacao/IndiretaPai/IndiretaPai';
 import Input from './components/formulario/Input/Input';
 import Contador from './components/Contador/Contador';
 import ContadorClasse from './components/Contador/CondadorClasse/ContadorClasse';
-import Megasena from './components/mega-sena/megasena';
+import Megasena from './components/mega-sena/Megasena';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default _ => (
@@ -29,7 +29,7 @@ export default _ => (
 
     <div className="Cards">
       <Card titulo="#13 - Desafio Mega-sena" color="#ba3bab">
-        <Megasena />
+        <Megasena qtde={8}/>
       </Card>
 
       <Card titulo="#12.1 - Contador - Componente de Classe" color="#333333">

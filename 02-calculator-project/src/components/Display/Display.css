@@ -1,0 +1,18 @@
+.display {
+  grid-column: span 4;
+  /* background-color: #0003; */
+
+  background: rgba(255, 255, 255, 0.15);
+  
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 1px solid rgba(255, 255, 255, 0.185);
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  font-size: 3em;
+  overflow: hidden;
+}
