@@ -2,7 +2,7 @@ import React, { useCallback, useState } from 'react';
 
 import PageTitle from '../../components/layout/PageTitle';
 import SectionTitle from '../../components/layout/SectionTitle';
-import UseCallbackButtons from '../../components/layout/useCallbackButtons';
+import UseCallbackButtons from '../../components/useCallbackButtons';
 
 const UseCallback = props => {
   const [count, setCount] = useState(0);
