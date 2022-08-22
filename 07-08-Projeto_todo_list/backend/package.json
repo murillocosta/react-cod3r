@@ -5,7 +5,8 @@
   "main": "src/loader.js",
   "scripts": {
     "dev": "nodemon",
-    "production": "pm2 start src/loader.js --name todo-app"
+    "production": "pm2 start src/loader.js --name todo-app",
+    "end": "pm2 stop todo-app"
   },
   "author": "",
   "license": "ISC",
