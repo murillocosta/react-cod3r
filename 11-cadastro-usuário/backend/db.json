@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Murillo de Alencar",
+      "email": "murillo@alencar.com"
+    },
+    {
+      "id": 2,
+      "name": "Marina Melo",
+      "email": "marina@melo.com"
+    }
+  ]
+}
