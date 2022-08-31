@@ -5,17 +5,20 @@ import 'font-awesome/css/font-awesome.min.css';
 import './App.css';
 
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 
 import Logo from '../components/templates/Logo/Logo';
 import Nav from '../components/templates/Nav/Nav';
-import Main from '../components/templates/Main/Main';
+import Routes from './Routes';
 import Footer from '../components/templates/Footer/Footer';
 
 export default props => (
-  <div className="app">
-    <Logo />
-    <Nav />
-    <Main icon="home" title="Início" subtitle="Projeto Cadastro com React" />
-    <Footer />
-  </div>
+  <BrowserRouter>
+    <div className="app">
+      <Logo />
+      <Nav />
+      <Routes />
+      <Footer />
+    </div>
+  </BrowserRouter>
 );
